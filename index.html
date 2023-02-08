@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    
+        <title>Curriculum</title>
+  </head>
+
+  <body>
+    <header>Curriculum vitae Wade Freeman <span>Freelancer</span></header>
+    <div class="barra-nav">
+      <nav>
+        <a href="#proyectos"> Proyectos</a>
+        <a href="#aside"> Sobre nosotros </a>
+        <a href="#nombre"> Contacto</a>
+      </nav>
+    </div>
+    <main>
+      <div id="proyectos" class="proyectos">
+        <div class="cafeblog">
+          <h3>BlogdeCafe <i class="fa fa-car"></i></h3>
+          <p>
+            Blog de Café desarrollado en HTML Y CSS, cuenta con barra de
+            navegacion, varias entradas, una parte para acceder a los cursos y
+            un formulario de contacto. Tambien tiene diseño Responsive, mejoras
+            de perfomance con Modernizr y formato Webp.
+          </p>
+          <a id="enlace" href="https://cafeblog1991.netlify.app/"
+            >Link de enlace</a
+          >
+        </div>
+        <div>
+          <h3>Ecommerce</h3>
+          <p>
+            Ecommerce desarrollado en HTML y CSS, con varios elementos. Diseño
+            Responsive.
+          </p>
+          <a id="enlace" href="https://frontendstoreexample1991.netlify.app/"
+            >Link de enlace</a
+          >
+        </div>
+      </div>
+      <div class="aside">
+        <aside id="aside">
+          <img id="imagen-perfil"
+          src="perfil.jpg"
+          alt="perfil foto hombre"
+        />
+          
+          <h2>Datos personales</h2>
+         <div id="aside-texto">
+          <ul>
+            <li>Nombre: Wade Freeman</li> <i class="fa-solid fa-user"></i>
+            <li>Email: wade.Freeman@example.com </li>
+            <li>Fecha de Nacimiento: 5/7/1958 </li>
+            <li>Numero de Telefono: (907) 597-5462</li>
+          </ul>
+        </div>
+          
+        </aside>
+      </div>
+    </main>
+
+    <div class="contacto">
+      <div class="formulario">
+        <h2>Formulario de contacto</h2>
+        <p>Escribime para entrar en contacto</p>
+
+        <form class="contenedor_formulario" method="post">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            required
+            placeholder="Escribe tu nombre"
+          />
+          <br />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Escribe tu Email"
+          />
+          <br />
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            required
+            placeholder="Escribe un mensaje"
+          ></textarea>
+
+          <button type="submit" name="enviar_formulario" id="enviar">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer>Caesar Producciones 2023</footer>
+  </body>
+</html>

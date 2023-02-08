@@ -1,0 +1,149 @@
+
+
+html{
+    background-image: url(fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+* {
+    
+    font-family: monospace;
+}
+
+header{
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: dashed solid black;
+    border: solid 2px darkolivegreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightsteelblue;    
+    margin: 0;
+    opacity: .7;
+}
+#titulo {color:aquamarine ;}
+
+
+h2 {
+    
+    font-size: 15pt;
+    
+}
+
+span {
+    font-size: 13pt;
+    font-weight: bolder;
+    color: darkolivegreen;
+    position: relative;
+    bottom: -1px;
+    right: 9px;
+}
+  
+
+a{ 
+    font-size: 13pt;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 60% 30%;
+
+}
+
+.proyectos {
+    font-size: 13pt;
+    margin: 50px 100px 50px 100px;
+    border: 2px solid darkolivegreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightsteelblue;
+    font-family: monospace;
+    opacity: .7;
+    padding: 10px 100px 10px 100px;
+    color: #3f4447;
+
+}
+
+#enlace { 
+    color: blue;
+}
+
+#enlace:hover{
+    color:grey;
+}
+
+.contacto {
+    font-size: 13pt;
+    width: 300px;
+    height: auto;
+    border: 2px solid darkolivegreen;
+    background-color: lightsteelblue;
+    padding: 10px 0 10px 5px;
+    opacity: .7;
+}
+
+button{
+    border: 1px solid darkolivegreen;
+    border-radius: 10%;
+    margin: 5px 100px 3px 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+#nombre, #email, #mensaje {
+    margin-top: 3px;
+    margin-right: 100px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+.formulario textarea:focus ,input:focus{
+    outline: 0;
+    border: 2px solid goldenrod;
+}
+
+footer{
+    color: aquamarine;
+}
+
+
+aside { 
+    position: relative;
+    right: 60px;
+    color: #3f4447;
+    background-color: lightsteelblue;
+    border: 2px solid darkolivegreen;
+    opacity: .7;
+    height: 500px;
+    width: 300px;
+    margin-left: 100px;
+    font-size: 13pt;
+    font-weight: bold;
+    display: grid;
+    justify-items: center;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+}
+
+aside h2{
+    text-decoration: underline;
+}
+
+#imagen-perfil{
+    border-radius: 35%;
+    position: relative;
+    bottom: 30px;
+
+}
+
+#aside-texto{
+    margin-right: 10px;
+    
+}
+    
